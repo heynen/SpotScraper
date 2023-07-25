@@ -83,7 +83,7 @@ if __name__ == "__main__":
     entry_playlist.bind("<Button-3>", on_entry_right_click)
     
     # Destination Label and Entry with Browse Button
-    label_destination = tk.Label(root, text="Lista de musicas:")
+    label_destination = tk.Label(root, text="Playlist file destination:")
     label_destination.grid(row=0, column=0, padx=5, pady=5)
 
     entry_destination = tk.Entry(root, width=50)
